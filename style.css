@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  background: #100f10; 
+}
+
+.login-div {
+  width: 430px;
+  height: 500px;
+  padding: 60px 35px 35px 35px;
+  margin: 3rem 3rem 3rem 25rem;
+  border-radius: 40px;
+  background-color: #383737;
+  box-shadow: 5px 5px 5px 5px #96029e, -3px -3px 2px 3px #9873d3;
+}
+
+.logo {
+  background: #8739f9;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px  #9873d3,
+  1px 0px 2px  #8739f9,
+  8px 8px 15px  #9873d3,
+  -8px -8px 15px  #9873d3;
+}
+.tittle {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.sub-tittle {
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+.fields {
+  width: 100%;
+  padding: 75px 5px 5px  5px;
+}
+.fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #9873d3;
+  padding: 20px 10px 20px 5px;
+}
+.email .password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px rgb(131, 115, 115),
+  inset -8px -8px 8px rgb(151, 135, 135);
+}
+
+.sign-in-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: wheat;
+  text-align: center;
+  background: #8739f9;
+  box-shadow: 3px 3px 8px rgb(50, 7, 90),
+  -3px -3px 8px black;
+  transition: 0.5s ease;
+}
+
+.sign-in-button:hover {
+  background: white;
+}
+
+.sign-in-button:active {
+  background: #8739f9;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+}
